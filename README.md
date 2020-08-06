@@ -1,1 +1,3 @@
 # videoPlayer-based-on-FFmpeg-SDL2
+- 编写了一个父类Player和继承它的两个子类VideoPlayer和AudioPlayer
+- 在test。cpp中创建两个线程分别调用VideoPlayer和AudioPlayer类对同一文件进行播放，但不能使音视频同步
